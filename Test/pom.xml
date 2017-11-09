@@ -56,13 +56,7 @@
 							<failsOnError>false</failsOnError>
 						</configuration>
 						<executions>
-							<execution>
-								<id>quality1</id>
-								<phase>validate</phase>
-								<goals>
-									<goal>check</goal>
-								</goals>
-							</execution>
+						    
 							<execution>
 								<id>quality2</id>
 								<phase>package</phase>
